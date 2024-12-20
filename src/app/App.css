@@ -1,0 +1,245 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray; 
+}
+
+.main {
+    width: 1400px;
+    height: 800px;
+    background-color:#ffffff;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.login-container {
+    width: 600px;
+    height: 600px;
+    background-color:#ffffff;
+    margin-left: 100px; 
+    margin-top: 50px;
+
+}
+
+.picture-container {
+    width: 600px;
+    height: 800px;
+    background-color:#ffffff;
+    margin-right: 0;
+    border-top-left-radius: 150px; 
+    border-bottom-left-radius: 150px; 
+}
+
+.picture-container img{
+ width: 800px;
+ height: 800px;
+ left: 811px;
+ gap: 0px;
+ border-radius: 200px 0px 0px 200px;
+ opacity: 0px;
+ object-fit: cover; 
+ }
+.form-title {
+    font-size: 80px;
+    line-height: 97.52px;
+    letter-spacing: 6px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-right: 5px; 
+    text-align: left;
+  }
+  .login {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 97.52px;
+    letter-spacing: 6px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color:#101A1CD6;
+   
+   margin-top: 30px;
+  }
+  
+  
+.form-group {
+    margin-top: 20px;
+    margin-bottom: 1.5rem;
+    width: 595.3px;
+    height: 58.85px;
+    top: 149.01px;
+    left: 57.51px;
+    gap: 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+  }
+  
+.form-label {
+    display: block;
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+    color: #555;
+  }
+  
+.form-input {
+    width: 100%;
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+    margin-top: 10px;
+  }
+
+.form-input:focus {
+    box-shadow: 0 0 0 2px rgba(76, 110, 245, 0.2);
+}
+
+.form-button {
+    width: 182px;
+    height: 54px;
+    border-radius: 10px;
+    background-color: #101A1CD6;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.form-button-login {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30.48px;
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    opacity: 1;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+
+.line-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    width: 550px; 
+    margin-top: 20px;
+}
+
+.line {
+    flex-grow: 1;
+    height: 0px;
+    border: 1px solid #101A1C;
+    opacity: 1;
+    margin: 0 10px; 
+}
+
+.or-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #101A1C;
+    text-align: center;
+}
+
+.line2 {
+    flex-grow: 1;
+    height: 0px;
+    border: 1px solid #101A1C;
+    opacity: 1;
+    margin: 0 10px; 
+}
+
+.image-container {
+    display: flex;
+    justify-content: start;
+    align-items: start; 
+    margin-top: 20px;
+    margin-left:130px; 
+}
+
+.image-container img {
+    width: 30px; 
+    height: 30px; 
+    object-fit: cover; 
+    border-radius: 10px; 
+    margin-left:80px; 
+}
+
+.image-container2 {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin-top: 20px;
+    
+}
+
+.image-container2 img {
+    width: 30px; 
+    height: 30px; 
+    object-fit: cover; 
+    border-radius: 10px; 
+
+}
+.registered{
+width: 517px;
+height: 30px;
+top: 612px;
+left: 14px;
+gap: 0px;
+opacity: 0px;
+font-family: Montserrat;
+font-size: 20px;
+font-weight: 600;
+line-height: 30.48px;
+text-align: center;
+margin-top: 40px;
+margin-left: 20px;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #101A1CA3;
+} */
